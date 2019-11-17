@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tutorial_6_task2</title>
+        <meta name="description" content="Tutorial_6_task2">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="column">
+                    <a class="main-header-logo" href="index.html">
+                        <img src="img/FRIENDFACE2.png" width="350" height="350" alt="Logo">
+                    </a>
+                </div>
+                <div class="column">
+                    <a class="social-button" href="#" aria-label="Facebook">
+                        <img class="social-button-icon" src="img/facebook_logo.png" width="38" height="38"
+                            alt="facebook">
+                    </a>
+                    <a class="social-button" href="#" aria-label="Facebook">
+                        <img class="social-button-icon" src="img/facebook_logo.png" width="38" height="38"
+                            alt="facebook">
+                    </a>
+                    <a class="social-button" href="#" aria-label="Facebook">
+                        <img class="social-button-icon" src="img/facebook_logo.png" width="38" height="38"
+                            alt="facebook">
+                    </a>
+                    <a class="social-button" href="#" aria-label="Facebook">
+                        <img class="social-button-icon" src="img/facebook_logo.png" width="38" height="38"
+                            alt="facebook">
+                    </a>
+                    <p>
+                        <h1> We will help you to find your soulmate!</h1>
+                    </p>
+                </div>
+            </div>
+        </header>
+    <main>
+            <form  method="get">
+                <fieldset style="border: 1px solid white;">
+                    <legend>Your Details:</legend>
+                    <label>Name:<br /><input type="text" name="name" /></label><br />
+                    <label>Surname:<br /><input type="text" name="surname" /></label><br />
+                    <label>Age:<br /><input type="number" name="age" /></label><br />
+                    <label>Email:<br /><input type="text" name="email" /></label><br />
+                    <label>Telephone number:<br /><input type="text" name="telephone" /></label><br />
+                    <labe>Gender:</labe><br />
+                        <input type="radio" name="gender" value="male" checked> Male<br>
+                        <input type="radio" name="gender" value="female"> Female<br>
+                        <input type="radio" name="gender" value="other"> Prefer not to say<br>
+                    <p>Upload your profile photo:</p>
+                <input type="file" name="user-photo" /><br />
+                <input type="submit" value="Upload" />
+                </fieldset><br />
+                <fieldset style="border: 1px solid white;">
+                    <legend>Your Review:</legend>
+                    <p>
+                        <label for="hear-about">How did you hear about us?</label>
+                        <select name="referrer" id="hear-about">
+                            <option value="google">Google</option>
+                            <option value="friend">Friend</option>
+                            <option value="advert">Lecturer</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    <label><input type="checkbox" name="subscribe" checked="checked" /> Sign me up for email updates</label><br />
+                    <input type="submit" value="Submit" />
+                </fieldset>
+            </form>
+    </main>    
+        <script src="js/script.js"></script>
+    </body>
+</html>
