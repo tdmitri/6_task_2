@@ -15,7 +15,7 @@ body{
    }
   
 /* Use grid layouts, more info https://cssgr.id/ 
-   and guideline about CSS grid https://www.w3schools.com/cssref/pr_grid.asp */
+   and guideline about CSS grid https://css-tricks.com/snippets/css/complete-guide-grid/ */
    
 .grid {
     width: auto;
